@@ -192,7 +192,7 @@
             {%- if config.THEME_SETTINGS.title %}
             {%- set nav_logo_text = config.THEME_SETTINGS.title %}
             {%- else %}
-            {%- set nav_logo_text = "Site Name" %}
+            {%- set nav_logo_text = "This Is Blythe is a Scam" %}
             {%- endif %}
             {%- elif config.THEME_SETTINGS.nav_logo_text %}
             {%- set nav_logo_text = config.THEME_SETTINGS.nav_logo_text %}
@@ -269,27 +269,7 @@
         <div class="row footer-copyright">
           <div class="text-center">
             <p>
-              {%- if config.THEME_SETTINGS.copyright %}
-              {{ config.THEME_SETTINGS.copyright | safe }}
-              {%- endif %}
-              {%- if config.THEME_SETTINGS.copyright and config.THEME_SETTINGS.footer_license_name %}
-              <span class="pipe-colored"> | </span>
-              {%- endif %}
-              {%- if config.THEME_SETTINGS.footer_license_name %}
-              Licensed <a href="{{ config.THEME_SETTINGS.footer_license_link }}" target="_blank" rel="noopener noreferrer">{{ config.THEME_SETTINGS.footer_license_name }}</a>
-              {%- endif %}
-              {%- if config.THEME_SETTINGS.copyright or config.THEME_SETTINGS.footer_license_name %}
-              <br>
-              {%- endif %}
-              {%- if config.THEME_SETTINGS.footer_custom_line %}
-              {{ config.THEME_SETTINGS.footer_custom_line | safe }}<br>
-              {%- endif %}
-              <a href="https://freehtml5.co/icon-free-website-template-using-bootstrap/" target="_blank" rel="noopener noreferrer">Template</a> design by <a href="https://freehtml5.co/" target="_blank" rel="noopener noreferrer">FreeHTML5.co</a>&nbsp;(<a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener noreferrer">CC&#8209;BY&nbsp;3.0</a>)
-              <br><a href="https://github.com/SteveLane/hugo-icon" target="_blank" rel="noopener noreferrer">Hugo port</a> by <a href="https://github.com/SteveLane/" target="_blank" rel="noopener noreferrer">SteveLane</a> <span class="pipe-colored">|</span> <a href="https://github.com/spyder-ide/lektor-icon" target="_blank" rel="noopener noreferrer">Lektor&nbsp;port</a>&nbsp;by&nbsp;<a href="https://github.com/dalthviz/" target="_blank" rel="noopener noreferrer">Dalthviz</a>
-              <br>Rewrite by <a href="http://gerlach.cam" target="_blank" rel="noopener noreferrer">C.A.M.&nbsp;Gerlach</a> <span class="pipe-colored">|</span> Maintained by <a href="https://www.spyder-ide.org/" target="_blank" rel="noopener noreferrer">Spyder&nbsp;IDE</a>
-              {%- if config.THEME_SETTINGS.footer_custom_info_databag %}
-              <br>{{ bag(config.THEME_SETTINGS.footer_custom_info_databag) | safe }}
-              {%- endif %}
+              Copyright Imogen K © 2022
             </p>
           </div>
         </div>
