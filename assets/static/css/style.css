@@ -397,12 +397,12 @@ img {
 .hero-section .fh5co-copy-inner h1,
 .hero-section .fh5co-copy-inner h2 {
   margin: 0;
-  padding: 0;
+  padding: 10px 20px;
   background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-section .fh5co-copy-inner h1 {
-  color: #fff;
+  color: white;
   font-size: 3em;
   font-weight: 300;
   line-height: 1.2;
@@ -410,9 +410,8 @@ img {
 }
 
 .hero-section .fh5co-copy-inner h2 {
-  color: #fff;
-  color: rgb(255 255 255 / 0.7);
-  font-size: 1.1em;
+  color: white;
+  font-size: 1.2em;
   line-height: 1.9;
 }
 
@@ -1915,7 +1914,7 @@ ul ul {
 }
 
 .col-md-6 {
-  width: 50%;
+  width: 71%;
 }
 
 @media screen and (max-width: 1200px) {
