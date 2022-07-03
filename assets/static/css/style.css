@@ -398,6 +398,7 @@ img {
 .hero-section .fh5co-copy-inner h2 {
   margin: 0;
   padding: 0;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .hero-section .fh5co-copy-inner h1 {
